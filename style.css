@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+/* UTILITIES */
+.accent-color{
+    color: #ffb900;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.container{
+    margin: 0 20px;
+}
+
+/* BASE STYLES */
+
+body{
+    margin: 0;
+}
+
+header h1{
+    margin: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+nav ul{
+    text-align: right;
+    margin: 0;
+    height: 100px;
+    padding-top: 35px
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 20px;
+    line-height: 30px
+}
+
+nav ul li>a{
+    position: relative;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li>a::after{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: orange;
+    transition: width .3s ease-in-out;
+}
+
+nav ul li>a:hover::after{
+    width: 100%;
+}
+
+nav ul li>a.active::after{
+    width: 100%;
+}
+
+header{
+    background-color: black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.accueil header{
+    height: calc(100vh - 100px);
+}
+
+.presentation{
+    font-size: 22px;
+}
+
+.projet-teaser{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    border-radius : 5px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0, 0.3);
+    background-color: white;
+    transition: all .3s ease-in-out;
+    text-align: center;
+}
+
+.projet-teaser:hover{
+    box-shadow: 0 0 30px 0 rgba(0,0,0, 0.3);
+    color: #ffb900;
+    background-color: #222222;
+}
+
+.projet-teaser>.content{
+    flex-grow: 1;
+}
+
+.projet-teaser picture>img{
+    display: block;
+    max-width: 100%;
+}
+
+.projet-teaser .description{
+    text-align: center;
+}
+.projet-teaser a{
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    align-self: center;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    background-color: white;
+}
+
+.projet-teaser a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.projet-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 40px;
+    justify-items: stretch;
+    margin-bottom: 30px;
+}
+
+.qualites-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    justify-items: stretch;
+}
+
+.qualite-losange{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 50px auto 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffb900;
+}
+
+.qualite-losange::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(45deg);
+    background-color: black;
+    z-index: -1;
+}
+
+/* TÉLÉPHONES PORTRAIT */
+@media screen and (min-width: 576px){
+}
+/* TABLETTES */ 
+@media screen and (min-width: 768px){
+    .container{
+        margin: 0 40px;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    .projet-container{
+        grid-template-columns: repeat(auto-fill, minmax(324px, 1fr));
+    }
+    
+    .qualites-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ORDINATEURS PORTABLES */
+@media screen and (min-width: 992px){
+    .container{
+        margin: 0 80px;
+    }
+}
+
+/* ORDINATEURS FIXES */
+@media screen and (min-width: 1200px){
+    
+}
