@@ -82,6 +82,26 @@
                 </div>
             </div>
         </section>
+        <section class="container" id="contact">
+            <form action="" method="POST">
+                <input type="text" name="email">
+                <input type="text" name="content">
+                <input type="submit">
+            </form>
+        </section>
     </main>
 </body>
 </html>
+<?php
+
+require_once("config.php");
+
+if(isset($_POST['email'],$_POST['content'])){
+    $destination = $config['emailTo'];
+    $sender = $_POST['email'];
+    $subject = "Contact de " .$sender;
+    $content = $_POST['content'];
+    mail($destination, $subject, $content, 'From:'.$sender);
+}
+
+?>

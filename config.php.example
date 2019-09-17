@@ -1,0 +1,7 @@
+<?php
+
+$config = [
+    "emailTo" => "" // add the email address you want the contact requests to be sent to
+];
+
+?>
