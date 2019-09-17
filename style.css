@@ -173,6 +173,41 @@ header{
     z-index: -1;
 }
 
+#contact .input{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact .input input{
+    display: block;
+    width: 100%;
+}
+
+#contact #content{
+    width: 100%;
+    resize: none;
+}
+
+#contact input[type="submit"]{
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    align-self: center;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover{
+    color: #ffb900;
+    background-color: black;
+}
+
 /* TÉLÉPHONES PORTRAIT */
 @media screen and (min-width: 576px){
 }
