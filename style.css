@@ -173,10 +173,14 @@ header{
     z-index: -1;
 }
 
+#contact{
+    margin-bottom: 30px;
+}
+
 #contact .input{
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
 }
 
 #contact .input input{
@@ -198,7 +202,7 @@ header{
     transition: all .3s ease-in-out;
     background-color: white;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
     transition: all .3s ease-in-out;
     cursor: pointer;
 }
