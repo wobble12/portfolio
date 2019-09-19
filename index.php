@@ -62,7 +62,7 @@
                         <p class="description">Webapp ayant pour but de promouvoir l'oenologie dans les Pays de la
                             Loire, développée en équipe lors de ma licence</p>
                     </div>
-                    <a href="" target="blank">Consulter le site</a>
+                    <a href="" target="_blank">Consulter le site</a>
                 </div>
                 <div class="projet-teaser">
                     <div class="content">
@@ -72,7 +72,7 @@
                         </picture>
                         <p class="description">Site de l'association des commercants de la ville de Châteaubourg</p>
                     </div>
-                    <a href="https://www.castelartcom.fr" target="blank">Consulter le site</a>
+                    <a href="https://www.castelartcom.fr" target="_blank">Consulter le site</a>
                 </div>
                 <div class="projet-teaser">
                     <div class="content">
@@ -83,7 +83,7 @@
                         <p class="description">Site de vente en ligne d'accessoires de jardinage développé avec Drupal
                             Commerce.</p>
                     </div>
-                    <a href="https://www.garden-equipment.fr/fr" target="blank">Consulter le site</a>
+                    <a href="https://www.garden-equipment.fr/fr" target="_blank">Consulter le site</a>
                 </div>
                 <div class="projet-teaser">
                     <div class="content">
@@ -94,7 +94,7 @@
                         <p class="description">Site de Kangouroukids, sur lequel j'ai effectué de nombreux travaux de
                             maintenance durant mon année à Blue2i.</p>
                     </div>
-                    <a href="https://www.kangouroukids.fr" target="blank">Consulter le site</a>
+                    <a href="https://www.kangouroukids.fr" target="_blank">Consulter le site</a>
                 </div>
             </div>
         </section>
