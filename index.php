@@ -62,7 +62,7 @@
                         <p class="description">Webapp ayant pour but de promouvoir l'oenologie dans les Pays de la
                             Loire, développée en équipe lors de ma licence</p>
                     </div>
-                    <a href="" target="_blank">Consulter le site</a>
+                    <a href="http://groupe1.iwave-oic.fr/" target="_blank">Consulter le site</a>
                 </div>
                 <div class="projet-teaser">
                     <div class="content">
