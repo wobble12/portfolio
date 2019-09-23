@@ -109,7 +109,7 @@
                 <label for="content">Votre message</label>
                 <textarea name="content" id="content" required></textarea>
                 </div>
-                <input type="submit">
+                <input type="submit" value="Envoyer">
             </form>
         </section>
     </main>
