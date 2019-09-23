@@ -20,7 +20,7 @@
     </nav>
     <header>
         <h1>Bonjour, je suis <span class="bold accent-color">Robin THOMAS</span>, <br><span
-                class="accent-color">développeur web full stack</span>, <br>et passionné d'informatique !</h1>
+                class="accent-color">développeur web full stack</span><br>et passionné d'informatique !</h1>
     </header>
     <main>
         <section class="container presentation">
