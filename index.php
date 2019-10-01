@@ -52,7 +52,7 @@
             </div>
         </section>
         <section class="container">
-            <h2>Mes Créations</h2>
+            <h2>Quelques Créations ...</h2>
             <div class="projet-container">
                 <div class="projet-teaser">
                     <div class="content">
