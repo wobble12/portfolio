@@ -22,10 +22,45 @@ body{
     margin: 0;
 }
 
+.btn{
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    align-self: center;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    background-color: white;
+}
+
 header h1{
     margin: 40px;
     color: white;
     font-size: 30px;
+}
+
+header .btn{
+    padding: 10px 30px;
+    font-size: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+header .btn::before{
+    content: "Voir mon CV";
+    color: black;
+    padding: 10px 30px;
+    position: absolute;
+    background-color: #ffb900;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translate(0,-100%);
+    transition: all 0.2s ease-in;
+}
+
+header .btn:hover::before{
+    transform: translate(0,0);
 }
 
 nav ul{
@@ -72,6 +107,7 @@ header{
     background-color: black;
     height: 200px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
@@ -114,15 +150,6 @@ header{
 
 .projet-teaser .description{
     text-align: center;
-}
-.projet-teaser a{
-    padding: 10px;
-    border: 1px solid black;
-    color: black;
-    align-self: center;
-    text-decoration: none;
-    transition: all .3s ease-in-out;
-    background-color: white;
 }
 
 .projet-teaser a::after{

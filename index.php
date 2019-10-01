@@ -21,6 +21,7 @@
     <header>
         <h1>Bonjour, je suis <span class="bold accent-color">Robin THOMAS</span>, <br><span
                 class="accent-color">développeur web full stack</span><br>et passionné d'informatique !</h1>
+        <a href="cv-robin-thomas.pdf" class="btn" target="_blank">Voir mon CV</a>
     </header>
     <main>
         <section class="container presentation">
@@ -62,7 +63,7 @@
                         <p class="description">Webapp ayant pour but de promouvoir l'oenologie dans les Pays de la
                             Loire, développée en équipe lors de ma licence</p>
                     </div>
-                    <a href="http://groupe1.iwave-oic.fr/" target="_blank">Consulter le site</a>
+                    <a href="http://groupe1.iwave-oic.fr/" class="btn" target="_blank">Consulter le site</a>
                 </div>
                 <div class="projet-teaser">
                     <div class="content">
@@ -72,7 +73,7 @@
                         </picture>
                         <p class="description">Site de l'association des commercants de la ville de Châteaubourg</p>
                     </div>
-                    <a href="https://www.castelartcom.fr" target="_blank">Consulter le site</a>
+                    <a href="https://www.castelartcom.fr" class="btn" target="_blank">Consulter le site</a>
                 </div>
                 <div class="projet-teaser">
                     <div class="content">
@@ -83,7 +84,7 @@
                         <p class="description">Site de vente en ligne d'accessoires de jardinage développé avec Drupal
                             Commerce.</p>
                     </div>
-                    <a href="https://www.garden-equipment.fr/fr" target="_blank">Consulter le site</a>
+                    <a href="https://www.garden-equipment.fr/fr" class="btn" target="_blank">Consulter le site</a>
                 </div>
                 <div class="projet-teaser">
                     <div class="content">
@@ -94,7 +95,7 @@
                         <p class="description">Site de Kangouroukids, sur lequel j'ai effectué de nombreux travaux de
                             maintenance durant mon année à Blue2i.</p>
                     </div>
-                    <a href="https://www.kangouroukids.fr" target="_blank">Consulter le site</a>
+                    <a href="https://www.kangouroukids.fr" class="btn" target="_blank">Consulter le site</a>
                 </div>
             </div>
         </section>
