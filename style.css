@@ -261,7 +261,7 @@ header{
 
 footer{
     min-height: 200px;
-    background-color: #222222;
+    background-color: black;
     display: flex;
 }
 
