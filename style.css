@@ -259,6 +259,51 @@ header{
     }
 }
 
+footer{
+    min-height: 200px;
+    background-color: #222222;
+    display: flex;
+}
+
+.links{
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding-left: 40px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+#linkedin::before, #github::before{
+    content: "";
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+}
+
+#linkedin::before{
+    background: url(images/logos/linkedin.png) no-repeat center center;
+    background-size: contain;
+}
+
+#github::before{
+    background: url(images/logos/github.png) no-repeat center center;
+    background-size: contain;
+}
+
+
 /* ORDINATEURS PORTABLES */
 @media screen and (min-width: 992px){
     .container{
