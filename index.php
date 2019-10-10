@@ -114,6 +114,12 @@
             </form>
         </section>
     </main>
+    <footer>
+        <section class="links">
+            <a href="https://www.linkedin.com/in/robin-thomas-655b27155" target="_blank" id="linkedin">Linkedin</a>
+            <a href="https://github.com/wobble12" target="_blank" id="github">Github</a>
+        </section>
+    </footer>
 </body>
 
 </html>
