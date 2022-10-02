@@ -110,6 +110,7 @@
                 <label for="content">Votre message</label>
                 <textarea name="content" id="content" required></textarea>
                 </div>
+				<input type="url" name="url" class="hidden">
                 <input type="submit" value="Envoyer">
             </form>
         </section>
@@ -127,7 +128,7 @@
 
 require_once("config.php");
 
-if(isset($_POST['email'],$_POST['content']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
+if(isset($_POST['email'],$_POST['content']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) && !isset($_POST['url'])){
     $destination = $config['emailTo'];
     $sender = $_POST['email'];
     $subject = "Contact de " .$sender;
