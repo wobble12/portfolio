@@ -128,7 +128,7 @@
 
 require_once("config.php");
 
-if(isset($_POST['email'],$_POST['content']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) && !isset($_POST['url'])){
+if(isset($_POST['email'],$_POST['content']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) && !empty($_POST['url'])){
     $destination = $config['emailTo'];
     $sender = $_POST['email'];
     $subject = "Contact de " .$sender;
