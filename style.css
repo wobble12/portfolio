@@ -220,6 +220,10 @@ header{
     resize: none;
 }
 
+#contact .hidden{
+	display: hidden;
+}
+
 #contact input[type="submit"]{
     padding: 10px;
     border: 1px solid black;
