@@ -221,7 +221,7 @@ header{
 }
 
 #contact .hidden{
-	display: hidden;
+	display: none;
 }
 
 #contact input[type="submit"]{
